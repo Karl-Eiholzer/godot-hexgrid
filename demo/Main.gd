@@ -9,8 +9,8 @@ var drag_map : bool = false
 
 func _ready():
 	UI.get_node("rotate").connect("pressed", on_rotate)
-	UI.get_node("zin").connect("pressed", func(): on_zoom(true))
-	UI.get_node("zout").connect("pressed", func(): on_zoom(false))
+	UI.get_node("zin").connect("pressed", func(): on_zoom(false))
+	UI.get_node("zout").connect("pressed", func(): on_zoom(true))
 	UI.get_node("LOS").connect("pressed", on_toggle)
 	UI.get_node("Move").connect("pressed", on_toggle)
 	UI.get_node("Influence").connect("pressed", on_toggle)
