@@ -19,5 +19,7 @@ config/icon="res://icon.png"
 
 window/size/viewport_width=1920
 window/size/viewport_height=1024
+window/size/initial_position_type=0
+window/stretch/mode="canvas_items"
 window/size/width=1920
 window/size/height=1080
